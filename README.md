@@ -19,3 +19,9 @@ Scalable: Tavily is built to scale as your usage grows, making it a reliable sol
 5. GPT Researcher is an open-source, autonomous agent powered by Tavily’s Search API.  This means the code that makes GPT Researcher work is publicly available.  Anyone can view, use, modify, and distribute it. This fosters transparency, collaboration, and community-driven development. You can find the code on platforms like GitHub.
 
 GPT Researcher -> Understand a research task + Create a plan for gathering information + Execute that plan by searching for relevant data + Synthesize the findings into a comprehensive report
+
+6. **How Tavily Handles scalability**
+    a. Distributed Infrastructure: Tavily likely uses a distributed system architecture, where its search functionality is spread across multiple servers and data centers. This allows it to handle a large volume of search requests concurrently without performance degradation.As the number of users or queries increases, Tavily can add more servers to its infrastructure to accommodate the growing demand.
+    b. Efficient Indexing and Search Algorithms: Tavily employs advanced algorithms for indexing and searching through vast amounts of data. These algorithms are optimized for speed and efficiency, allowing Tavily to quickly retrieve relevant information even with a massive index. 
+
+    
