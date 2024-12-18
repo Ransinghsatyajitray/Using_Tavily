@@ -24,4 +24,8 @@ GPT Researcher -> Understand a research task + Create a plan for gathering infor
     a. Distributed Infrastructure: Tavily likely uses a distributed system architecture, where its search functionality is spread across multiple servers and data centers. This allows it to handle a large volume of search requests concurrently without performance degradation.As the number of users or queries increases, Tavily can add more servers to its infrastructure to accommodate the growing demand.
     b. Efficient Indexing and Search Algorithms: Tavily employs advanced algorithms for indexing and searching through vast amounts of data. These algorithms are optimized for speed and efficiency, allowing Tavily to quickly retrieve relevant information even with a massive index. 
 
-    
+In Tavily's output, the "score" field represents a relevance score that indicates how closely a retrieved document matches your search query. It's a value between 0 and 1, where higher scores indicate greater relevance.
+
+**Note**
+When performing retrieval using LangChain, cosine similarity is generally used as the default similarity metric.
+Tavily's relevance scoring relies on proprietary AI algorithms that are not publicly disclosed. This is common for commercial search engines and AI platforms to protect their intellectual property and competitive advantage.
